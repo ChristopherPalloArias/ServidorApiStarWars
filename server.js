@@ -15,7 +15,7 @@ const db = mysql.createPool({
   database: 'christopherobin_starwars'
 });
 
-// Conectar a la base de datos y manejar errores de conexión
+// Conectar a la base de datos y manejar errores de conexiónes
 db.getConnection((err) => {
   if (err) {
     console.error('Error connecting to the database:', err);
